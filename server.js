@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const PORT = 3000;
+const PORT = 8001;
 const productsRoute = require("./src/routes/productRoutes");
 const cartRoute = require("./src/routes/cartRoutes");
 const notFoundRoute = require("./src/routes/main");
